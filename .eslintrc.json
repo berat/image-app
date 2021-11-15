@@ -1,0 +1,16 @@
+{
+  "extends": ["plugin:react/recommended", "airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "js": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error", {"endOfLine": "auto", "printWidth": 120}]
+  }
+}
