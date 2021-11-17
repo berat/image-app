@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "pod": "cd ios && pod install && cd ..",
-    "svgr": "npx svgr src/assets/svg -d ./src/components/icons --icon --native --replace-attr-values '#000=currentColor' --ignore-existing --index-template",
+    "svgr": "npx svgr src/assets/svg -d ./src/components/icons --icon --native --replace-attr-values '#000=currentColor' --ignore-existing",
     "test": "jest",
     "lint": "eslint ."
   },

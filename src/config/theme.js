@@ -1,7 +1,7 @@
 const space = [];
 
 const radii = {
-  standart: 7,
+  normal: 7,
 };
 
 const colors = {

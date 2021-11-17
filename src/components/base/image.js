@@ -5,13 +5,14 @@ import {
   color,
   size,
   typography,
+  borderRadius,
   space,
   layout,
   flexbox,
 } from 'styled-system';
 
 const Image = styled(I)(
-  compose(typography, layout, space, color, size, flexbox),
+  compose(typography, layout, space, borderRadius, color, size, flexbox),
 );
 
 export default Image;
