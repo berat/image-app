@@ -3,7 +3,7 @@
   
 # Image app with React Native
 
-In this web application, users will explore the photos published to Unsplash. 
+In this mobile application, users will explore the photos published to Unsplash. 
 
 ## Tech Stack
 - Developed with **React Native**
