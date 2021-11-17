@@ -11,8 +11,8 @@ import RootNavigator from './routers';
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <SafeAreaProvider>
+    <SafeAreaProvider>
+      <Provider store={store}>
         <ThemeProvider theme={theme}>
           <KeyboardAvoidingView
             style={{flex: 1}}
@@ -23,7 +23,7 @@ export default function App() {
             </NavigationContainer>
           </KeyboardAvoidingView>
         </ThemeProvider>
-      </SafeAreaProvider>
-    </Provider>
+      </Provider>
+    </SafeAreaProvider>
   );
 }

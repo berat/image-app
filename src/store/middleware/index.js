@@ -14,9 +14,13 @@ const api =
     next(action);
 
     try {
+      const key = 'EEp9nPmNJe9ZVENaC2HF9WWhDeJVtngpOYinNs0N1Bk';
       const response = await axios.request({
         baseURL: 'https://api.unsplash.com/',
         url,
+        headers: {
+          Authorization: `Client-ID ${key}`,
+        },
         method,
         data,
       });

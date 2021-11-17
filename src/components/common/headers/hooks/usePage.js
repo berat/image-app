@@ -5,9 +5,9 @@ export default function usePage(onChange) {
   const [searchText, setSearchText] = useState("");
 
   const onSearch = text => {
-    setSearchText(text);
-    setInterval(() => {
-      onChange(text);
+    setSearchText(text.toLowerCase());
+    setTimeout(() => {
+      onChange(text.toLowerCase());
     }, 500);
   };
 
